@@ -1,0 +1,108 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background-color: #2C588F;
+	color: #ffffff;
+	width: auto;
+	height: auto;
+}
+#base{
+	background-color: #4487DB;
+	width:auto;
+	height: auto;
+    margin-left:20px;
+    margin-right:20px;
+
+
+}
+
+header{
+	background-color: #398F28;
+	color:#ffffff;
+	text-align:center;
+	font-size:40pt;
+    position: relative;
+}
+
+main{
+	width: 80%;
+	height: auto;
+	background-color: #2C588F;
+	margin-left: 10%;
+	margin-right: 10%;
+    line-height: 80px;
+    position: relative;
+}
+nav{
+    font-size: 22pt;
+    height: 53px;
+    background-attachment: fixed;
+    background-color:#6FDB5A;
+    color: #ffffff;
+}
+
+ul li {
+    display:inline;
+}
+
+a{
+    color: #2C588F;
+    padding: 4em;
+    margin:  4em;
+    font-size: 14pt;
+}
+a:hover{
+    color: #ffffff;
+    background-color: #4487DB;
+    padding: 4em;
+    margin:  4em;
+    font-size: 16pt;
+}
+
+h2{
+    font-size: 22pt;
+    color:#ffffff;
+   
+}
+p{
+    font-size: 18pt;
+}
+h3{
+    font-size: 22pt;
+    color:#4487DB;
+   
+}
+
+form{
+    margin-left: 60px;
+}
+footer{
+    position: relative;
+    background-color: #398F28;
+    height: 80px;
+    color:#ffffff;
+	margin-top: 40px;
+	position:relative;
+    text-align: center;
+}
+
+input{
+    display: block;
+    padding: 1em;
+    color:#4487DB;
+}
+select{
+    font-size: 18pt;
+    color:#4487DB;
+    padding: 1em;
+    
+}
+input[type=submit]{
+    padding: 1.8em;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #4487DB;
+  font-size: 14pt;
+}

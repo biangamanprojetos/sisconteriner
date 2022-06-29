@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Conteiner</title>
+</head>
+<body>
+    <header>
+        <h1>Controle de Conteiner</h1>
+    </header>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Cadastrar</li>
+            <li>Relatórios</li>
+            <li>Exclusão</li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Bem vindo ao Sistema de Controle de Conteiner</h1>
+        <form method="Post" action="controler.php">
+            Identifique-se:<input type="text" name="nome" placeholder="Digite seu login">
+            Senha:<input type="password" name="senha" placeholder="Digite a senha">
+            O que seja cadastrar:<select name="tipo">
+                <option value="1">Conteiner</option>
+                <option value="2">Cliente</option>
+                <option value="3">Movimentação</option>
+            </select>
+            <input type="submit" name="Acessar">
+        </form>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
